@@ -1,14 +1,20 @@
-class Calculadora:
 
-    def __init__(self, a, b):
-        self.__Alpha = a
-        self.__Beta = b
 
-    def soma(self):
-        return self.__Alpha + self.__Beta
+def soma(a, b):
+    return a + b
+    #print(a + b)
+    #res = self.Alpha + self.Beta
+    #return res
 
-    def subtrair(self):
-        return self.__Alpha - self.__Beta
+
+def subtrair(a, b):
+    return a - b
+
 
 if __name__ == '__main__':
-    Calculadora(0, 0)
+    soma(1, 1)
+
+
+
+x = soma(2, 2)
+#print(x)
